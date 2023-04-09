@@ -1,10 +1,9 @@
-﻿using System;
-using CommunityToolkit.Mvvm.Input;
+﻿using CommunityToolkit.Mvvm.Input;
 using EasyModal;
 
 namespace EasyModalClient.Demo;
 
-public partial class MainViewModel : IModalViewModelBase
+public partial class MainViewModel
 {
     public ModalViewModel Modal { get; }
 
@@ -12,6 +11,4 @@ public partial class MainViewModel : IModalViewModelBase
 
     [RelayCommand]
     public void ShowConfirmation() => Modal.Show<ConfirmationModalViewModel>();
-
-    public event Action? CloseAction;
 }

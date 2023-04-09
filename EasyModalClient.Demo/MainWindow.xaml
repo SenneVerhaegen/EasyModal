@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800"
         d:DataContext="{d:DesignInstance Type=local:MainViewModel}">
     <Grid>
+        <!-- This is your main content -->
         <StackPanel Grid.Row="0">
             <Button
                 Padding="7"
@@ -17,6 +18,7 @@
                 Command="{Binding ShowConfirmationCommand}" />
         </StackPanel>
 
+        <!-- This is your modal -->
         <ContentControl
             Grid.Row="0"
             HorizontalAlignment="Center"
