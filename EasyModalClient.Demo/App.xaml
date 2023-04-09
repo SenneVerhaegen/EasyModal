@@ -1,0 +1,18 @@
+﻿<Application x:Class="EasyModalClient.Demo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EasyModalClient"
+             xmlns:easyModal="clr-namespace:EasyModal;assembly=EasyModal"
+             xmlns:demo="clr-namespace:EasyModalClient.Demo">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type easyModal:ModalViewModel}">
+            <easyModal:ModalView />
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type demo:ConfirmationModalViewModel}">
+            <demo:ConfirmationModal />
+        </DataTemplate>
+
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </Application.Resources>
+</Application>

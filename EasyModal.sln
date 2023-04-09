@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyModal", "EasyModal\EasyModal.csproj", "{D71BC9D5-0E3E-4509-9EE4-9555DBC5F833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyModalClient.Demo", "EasyModalClient.Demo\EasyModalClient.Demo.csproj", "{D149A3C8-7C03-4697-80AB-D18B9AB5C756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D71BC9D5-0E3E-4509-9EE4-9555DBC5F833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71BC9D5-0E3E-4509-9EE4-9555DBC5F833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71BC9D5-0E3E-4509-9EE4-9555DBC5F833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71BC9D5-0E3E-4509-9EE4-9555DBC5F833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D149A3C8-7C03-4697-80AB-D18B9AB5C756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D149A3C8-7C03-4697-80AB-D18B9AB5C756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D149A3C8-7C03-4697-80AB-D18B9AB5C756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D149A3C8-7C03-4697-80AB-D18B9AB5C756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
